@@ -417,6 +417,7 @@ export default class Carousel extends Component {
           pagingEnabled
           bounces={false}
           scrollEnabled={this.props.swipe}
+          scrollEventThrottle={0}
           contentContainerStyle={[
             styles.horizontalScroll,
             this.props.contentContainerStyle,
